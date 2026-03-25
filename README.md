@@ -45,7 +45,7 @@ task-timer/
 1. Clone this repository:
 
 ```
-git clone https://github.com/your-username/task-timer.git
+git clone https://github.com/TyVisal/task-timer.git
 ```
 
 2. Open the project folder
