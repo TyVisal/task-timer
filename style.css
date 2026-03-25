@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.parent {
+  background-color: rgb(124, 146, 146);
+  width: 70%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  border-radius: 30px;
+  box-shadow: 0px 10px 30px rgba(187, 7, 2, 0.3);
+}
+.three-main {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.main-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  font-size: clamp(20px, 4vw, 40px); /* scales between 20px and 40px */
+}
+.h1 {
+  font-size: clamp(40px, 10vw, 70px); /* scales between 40px and 70px */
+}
+.button {
+  padding: 8px 35px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+.button:hover {
+  cursor: pointer;
+}
+.one {
+  background-color: rgb(153, 206, 48);
+}
+.two {
+  background-color: rgb(173, 55, 55);
+}
+.three {
+  background-color: rgb(92, 90, 90);
+}
+
+.one:hover {
+  box-shadow: 0px 10px 30px rgba(7, 219, 53, 0.3);
+  padding: 10px 40px;
+}
+.two:hover {
+  box-shadow: 0px 10px 30px rgba(177, 12, 12, 0.3);
+  padding: 10px 40px;
+}
+.three:hover {
+  box-shadow: 0px 10px 30px rgba(45, 51, 47, 0.3);
+  padding: 10px 40px;
+}
+.one:active {
+  background-color: white;
+  color: black;
+}
+.two:active {
+  background-color: white;
+  color: black;
+}
+.three:active {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 480px) {
+  .parent {
+    width: 90%;
+    height: auto;
+    padding: 40px 20px;
+  }
+}
