@@ -24,7 +24,7 @@ A simple and clean web-based timer to help users stay focused and manage tasks e
 
 ## 📸 Screenshot
 
-![Task Timer Screenshot](.img.png)
+![Task Timer Screenshot](screenshot.png)
 
 ---
 
